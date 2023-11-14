@@ -1,0 +1,1029 @@
+@font-face {
+    font-family: airbnb;
+    src: url(Fonts/AirbnbCerealMedium.ttf);
+}
+
+@font-face {
+    font-family: airbnbLight;
+    src: url(Fonts/AirbnbCerealLight.ttf);
+}
+
+@font-face {
+    font-family: airbnbMed;
+    src: url(Fonts/AirbnbCerealMedium.ttf);
+}
+
+@font-face {
+    font-family: airbnbBold;
+    src: url(Fonts/AirbnbCerealBold.ttf);
+}
+
+@font-face {
+    font-family: airbnbBook;
+    src: url(Fonts/AirbnbCerealBook.ttf);
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url(Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: robotoReg;
+    src: url(Fonts/Roboto-Regular.ttf);
+}
+
+.boldFont {
+    font-family: airbnbBold;
+}
+
+.lightFont {
+    font-family: airbnbLight;
+}
+
+.medFont {
+    font-family: airbnbMed;
+}
+
+.bookFont {
+    font-family: airbnbBook;
+}
+
+.normalFont {
+    font-family: airbnb;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: airbnb;
+    color: #222222;
+}
+
+.content-formatter {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#global-icon:hover {
+    background-color: white;
+}
+
+#corona a:hover {
+    color: #898989;
+}
+
+#above-search span:hover {
+    color: #494B43;
+    cursor: pointer;
+}
+
+.explore-nearby-part a {
+    color: #222222;
+}
+
+.live-anywhere-part a {
+    color: #222222;
+}
+
+.discover-part a {
+    color: #222222;
+}
+
+.ins-part:hover {
+    background-color: #F7F7F7;
+    text-decoration: underline;
+}
+
+.ins-part:focus {
+    color: #222222;
+    outline: none;
+}
+
+#inspiration hr {
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.city span {
+    color: #717171;
+}
+
+.head {
+    color: #222222 !important;
+}
+
+#penaltimate ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#penaltimate a {
+    color: #222222;
+}
+
+#penaltimate a:hover {
+    text-decoration: underline;
+    color: #484848;
+}
+
+#last-partG640 a,
+#last-partL640 a {
+    color: #222222;
+}
+
+#last-partG640 a:hover,
+#last-partL640 a:hover {
+    text-decoration: underline;
+    color: #484848;
+}
+
+.footer-second-part span {
+    text-decoration: underline;
+}
+
+.footer-second-part ul {
+    margin: 0px;
+    float: right;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#corona {
+    background-color: #222222;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+#corona a {
+    color: #a3a3a3;
+    text-decoration: underline !important;
+    font-size: 14px;
+}
+
+
+/* 
+header {
+    max-width: 100%;
+    background-size: cover;
+    background-image: url(Images/header.png);
+} */
+
+#logoName {
+    /*fek konam kollan bayad avaz beshe*/
+    width: 100px;
+    height: 30px;
+    /*z-index: -1;*/
+}
+
+#profile {
+    background-color: white;
+    /*size ta size*/
+    height: 28px;
+    width: 65px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#global-icon {
+    background-color: transparent;
+    /*size ta size*/
+    height: 15.5px;
+    width: 15.5px;
+    padding: 10px 13px;
+    margin-right: 6px;
+    border-radius: 25px;
+}
+
+#become-host {
+    background-color: transparent;
+    color: #222222;
+    /*size ta size*/
+    font-size: 15px;
+    padding: 12px 13px;
+    margin-top: -2px;
+}
+
+#become-host:hover {
+    background-color: white;
+    /*size ta size*/
+    border-radius: 50px;
+}
+
+#above-search {
+    text-align: center;
+    /*size ta size*/
+    padding-left: 185px;
+    width: 760px;
+}
+
+#header-top-part {
+    /*size ta size*/
+    margin-top: 16px;
+    width: 100%;
+}
+
+#search-box-less-640 {
+    border: 1px solid #D8E9CA;
+    background-color: white;
+    text-align: center;
+    /*size ta size*/
+    width: 100%;
+    height: 45px;
+    border-radius: 35px;
+    margin: 16px auto;
+}
+
+#search-box-less-640 input {
+    background-image: url(Images/min-width320/search.png);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 40px;
+}
+
+#search-box-less-640 input[type='text']::placeholder {
+    text-align: center;
+    vertical-align: middle;
+    color: #222222;
+    opacity: 1;
+    font-weight: bold;
+    font-family: airbnbLight;
+}
+
+#search-box-greater-640 {
+    border: 1px solid #D8E9CA;
+    background-color: white;
+    width: 60%;
+    border-radius: 50px;
+    margin: 16px auto;
+}
+
+#search-box-greater-640 td:hover {
+    background-color: #F7F7F7;
+}
+
+#search-box-greater-640 input,
+#search-box-less-640 input {
+    border: none;
+    background-color: transparent;
+    width: 90%;
+}
+
+#search-box-greater-640 input:focus,
+#search-box-less-640 input:focus {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#search-box-greater-640 td {
+    /*size ta size*/
+    padding: 12px 0px 12px 30px;
+    border-radius: 40px;
+    line-height: 16px;
+}
+
+#search-box-greater-640 label {
+    /*size ta size*/
+    font-size: 12px;
+}
+
+#location {
+    /*size ta size*/
+    width: 230px;
+}
+
+#title {
+    /*size ta size*/
+    padding-top: 107px;
+}
+
+#title h1 {
+    margin: 0px;
+    /*size ta size*/
+    font-size: 60px;
+    line-height: 52px;
+}
+
+#title p {
+    /*size ta size*/
+    line-height: 22px;
+    font-size: 20px;
+}
+
+#title span {
+    background-color: #222222;
+    color: white;
+    border: none;
+    /*size ta size*/
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 8px 15px;
+}
+
+#Explore-Nearby {
+    height: auto;
+    margin-top: 65px;
+}
+
+.explore-nearby-part {
+    display: inline-table;
+    /*size ta size*/
+    width: 339px;
+}
+
+.explore-nearby-part div {
+    /*size ta size*/
+    padding-top: 10px;
+    padding-left: 7px;
+    margin-left: 75px;
+    font-size: 16px;
+}
+
+.explore-nearby-part img {
+    /*size ta size*/
+    width: 64px;
+    height: 64px;
+    border: none;
+    border-radius: 9px;
+}
+
+#Live-Anywhere {
+    /*size ta size*/
+    margin-top: 65px;
+}
+
+h2 {
+    /*size ta size*/
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.live-anywhere-part {
+    display: inline-table;
+    /*size ta size*/
+    width: 326px;
+    margin-right: 15px;
+    margin-left: 1px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.live-anywhere-part img {
+    border: none;
+    /*size ta size*/
+    width: 326px;
+    height: 326px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+#try-hosting {
+    /*size ta size*/
+    margin-top: 65px;
+    height: 479px;
+}
+
+#try-hosting .content-formatter {
+    height: inherit;
+    border: none;
+    /*size ta size nemidunam mishe ya na*/
+    background-repeat: no-repeat;
+    background-image: url(Images/try-hosting.png);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#try-hosting p {
+    color: white;
+    /*size ta size*/
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#try-hosting .button {
+    color: #222222;
+    background-color: white;
+    border: none;
+    text-align: center;
+    /*size ta size*/
+    border-radius: 7px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px 0px;
+    width: 130px;
+}
+
+#discover {
+    /*size ta size*/
+    margin-top: 65px;
+}
+
+.discover-part {
+    display: inline-table;
+    /*size ta size*/
+    width: 446.5px;
+    margin-right: 8px;
+    margin-top: 24px;
+}
+
+.discover-part p {
+    margin: 0px;
+    /*size ta size*/
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.discover-part img {
+    border: none;
+    /*size ta size*/
+    height: 439px;
+    border-radius: 10px;
+    width: 439px;
+    margin-bottom: 4px;
+}
+
+.discover-part span {
+    /*size ta size*/
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#airbnb2021 {
+    /*size ta size*/
+    margin-top: 65px;
+    height: 479px;
+}
+
+header {
+    height: 700px;
+}
+
+#airbnb2021 .content-formatter {
+    height: inherit;
+    border: none;
+    /*size ta size*/
+    border-radius: 15px;
+    background-image: url(Images/airbnb2021.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#airbnblogo-greater640 {
+    /*size ta size*/
+    height: 80px;
+    width: 170px;
+}
+
+#airbnb2021 p {
+    color: #222222;
+    /*size ta size*/
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#airbnb2021 .button {
+    color: white;
+    background-color: #222222;
+    border: none;
+    text-align: center;
+    /*size ta size*/
+    border-radius: 7px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px 0px;
+    width: 130px;
+}
+
+#inspiration {
+    /*size ta size*/
+    margin-top: 65px;
+}
+
+#inspiration h2 {
+    /*size ta size*/
+    margin-bottom: 16px;
+}
+
+.ins-part {
+    border: none;
+    color: #717171;
+    background-color: white;
+    /*size ta size*/
+    border-radius: 8px;
+    /*fek konam in qanune kolle safhe hs*/
+    font-size: 14px;
+    line-height: 18px;
+    margin: 6px 6px 6px 0px;
+    padding: 10px;
+}
+
+.city {
+    /*size ta size*/
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 32px;
+}
+
+footer {
+    background-color: #F7F7F7;
+    border-top: 1px solid #e1e1e1;
+    /*size ta size*/
+    margin-top: 65px;
+}
+
+#penaltimate {
+    /*size ta size*/
+    padding: 40px 0px;
+}
+
+#penaltimate h4 {
+    font-family: airbnbBold;
+    text-transform: uppercase;
+    /*size ta size*/
+    font-size: 12px;
+    line-height: 17.2px;
+}
+
+#penaltimate li {
+    font-family: airbnbBook;
+    font-weight: 300;
+    /*size ta size*/
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.four-line {
+    display: inline-table;
+    /*size ta size*/
+    width: 339px;
+}
+
+#last-partG640 {
+    border-top: 1px solid #e1e1e1;
+    /*size ta size*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#last-partG640,
+#last-partL640 {
+    /*size ta size*/
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.dot {
+    /*size ta size*/
+    padding: 0px 5px;
+}
+
+.footer-second-part img[src="Images/worldwide.png"] {
+    float: left;
+    /*size ta size*/
+    height: 18px;
+    width: 18px;
+    padding-right: 5px;
+}
+
+.footer-second-part img {
+    /*size ta size*/
+    height: 20px;
+    width: 20px;
+}
+
+.footer-second-part li {
+    display: inline;
+    /*size ta size*/
+    padding-right: 24px;
+}
+
+#try-hosting-content {
+    padding-left: 80px;
+    padding-top: 148px;
+}
+
+#try-hosting-content span {
+    color: white;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+#bg-320,
+#bg-480,
+#bg-640 {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+#bg-960,
+#bg-1024,
+#bg-1280 {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 92%;
+}
+
+#discover-sub {
+    font-size: 26px;
+    line-height: 36px;
+    display: block;
+}
+
+#airbnb2021-content {
+    padding-left: 80px;
+    padding-top: 132px;
+}
+
+#search-box-greater-640,
+#search-box-less-640 {
+    display: none;
+}
+
+#airbnblogo-less640,
+#airbnblogo-greater640 {
+    display: none;
+}
+
+.footer-seperator {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#last-partL640,
+#last-partG640 {
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    #last-partL640 {
+        display: block;
+    }
+    #bg-320 {
+        display: inline-block;
+    }
+    #corona a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #header-top-part {
+        display: none;
+    }
+    #search-box-less-640 {
+        display: block;
+    }
+    #corona {
+        height: 50px;
+        text-align: center;
+    }
+    #title {
+        /*size ta size*/
+        padding-top: 20px;
+        padding-left: 5px;
+    }
+    #title h1 {
+        margin: 0px;
+        /*size ta size*/
+        font-size: 40px;
+        line-height: 40px;
+    }
+    #title p {
+        /*size ta size*/
+        font-size: 15px;
+        line-height: 16px;
+        margin-bottom: 20px;
+    }
+    #title span {
+        background-color: #222222;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        padding: 8px 15px;
+    }
+    header {
+        width: 100%;
+        height: 560px;
+    }
+    h2 {
+        font-weight: lighter;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .explore-nearby-part {
+        display: inline-block;
+        /*size ta size*/
+        width: 49%;
+        margin-top: 10px;
+    }
+    .explore-nearby-part div {
+        /*size ta size*/
+        padding-top: 10px;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .explore-nearby-part img {
+        /*size ta size*/
+        width: 64px;
+        height: 64px;
+        border: none;
+        border-radius: 9px;
+    }
+    #seperate {
+        display: none;
+    }
+    .live-anywhere-part {
+        margin-bottom: 20px;
+    }
+    #try-hosting {
+        height: 444px;
+        text-align: center;
+    }
+    #try-hosting .content-formatter {
+        /*size ta size nemidunam mishe ya na*/
+        background-image: url(Images/min-width320/girl.webp);
+    }
+    #try-hosting-content {
+        padding-left: 0px;
+        padding-top: 36px;
+    }
+    #try-hosting-content span {
+        color: white;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    #try-hosting p {
+        color: white;
+        /*size ta size*/
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+    #try-hosting .button {
+        color: #222222;
+        background-color: white;
+        border: none;
+        text-align: center;
+        /*size ta size*/
+        border-radius: 8px;
+        font-size: 13px;
+        line-height: 18px;
+        padding: 10px 0px;
+        width: 100px;
+        margin-left: 35%;
+    }
+    #discover h2 {
+        margin-bottom: 0px;
+    }
+    #discover-sub {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: -6px;
+    }
+    .discover-part {
+        width: 100%;
+        margin: auto;
+    }
+    .discover-part p {
+        /*size ta size*/
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .discover-part img {
+        margin-top: 20px;
+        border: none;
+        /*size ta size*/
+        border-radius: 10px;
+        width: 90%;
+        height: auto;
+    }
+    .discover-part span {
+        /*size ta size*/
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #airbnb2021 {
+        height: 444px;
+        text-align: center;
+    }
+    #airbnb2021 .content-formatter {
+        /*size ta size nemidunam mishe ya na*/
+        background-image: url(Images/min-width320/airbnb2021.webp);
+    }
+    #airbnb2021-content {
+        padding-left: 0px;
+        padding-top: 36px;
+    }
+    #airbnb2021-content span {
+        color: #222222;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    #airbnb2021 p {
+        color: #222222;
+        /*size ta size*/
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    #airbnb2021 .button {
+        color: white;
+        background-color: #222222;
+        border: none;
+        text-align: center;
+        /*size ta size*/
+        border-radius: 8px;
+        font-size: 13px;
+        line-height: 18px;
+        padding: 8px 0px;
+        width: 105px;
+        margin-left: 35%;
+    }
+    #break-after-airbnb-logo {
+        display: none;
+    }
+    #airbnblogo-less640 {
+        display: inline-block;
+        height: 60px;
+        width: autof;
+    }
+    .cities-line {
+        display: inline-table;
+        width: 49%;
+        /* margin-top: 16px; */
+    }
+    .city {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 32px;
+    }
+    .hidden {
+        display: none;
+    }
+    .footer-seperator {
+        display: block;
+    }
+    .footer-second-part,
+    .footer-first-part {
+        display: block;
+    }
+    .footer-second-part {
+        margin-bottom: 5px;
+    }
+    #last-partL640 {
+        border-top: 1px solid #e1e1e1;
+        /*size ta size*/
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width:481px) and (max-width:640px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    #bg-480 {
+        display: inline-block;
+    }
+    #search-box-less-640 {
+        display: block;
+    }
+    #corona {
+        height: 50px;
+    }
+}
+
+@media (min-width:641px) and (max-width:960px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    #bg-640 {
+        display: inline-block;
+    }
+    #search-box-greater-640 {
+        display: block;
+    }
+    #corona {
+        height: 50px;
+    }
+}
+
+@media (min-width:961px) and (max-width:1024px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    #bg-960 {
+        display: inline-block;
+    }
+    header {
+        width: 100%;
+        height: 700px;
+    }
+    #corona a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #search-box-greater-640 {
+        display: block;
+    }
+    #corona {
+        height: 58px;
+    }
+    #airbnblogo-greater640 {
+        display: inline-block;
+    }
+    .footer-first-part {
+        display: inline-block;
+    }
+    .footer-second-part {
+        float: right;
+    }
+    .cities-line {
+        display: inline-table;
+        /*size ta size*/
+        width: 339px;
+        margin-top: 16px;
+    }
+    #last-partG640 {
+        display: block;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+    /* big landscape tablets, laptops, and desktops */
+    #bg-1024 {
+        display: inline-block;
+    }
+    #search-box-greater-640 {
+        display: block;
+    }
+    #corona {
+        height: 58px;
+    }
+    #last-partG640 {
+        display: block;
+    }
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+    #bg-1280 {
+        display: inline-block;
+    }
+    #corona a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #search-box-greater-640 {
+        display: block;
+    }
+    #corona {
+        height: 58px;
+    }
+    #airbnblogo-greater640 {
+        display: inline-block;
+    }
+    .footer-first-part {
+        display: inline-block;
+    }
+    .footer-second-part {
+        float: right;
+    }
+    .cities-line {
+        display: inline-table;
+        /*size ta size*/
+        width: 339px;
+        margin-top: 16px;
+    }
+    #last-partG640 {
+        display: block;
+    }
+}
